@@ -12,7 +12,7 @@ Usage
 
 Install a tagged release::
 
-   pip install "sphinx-phytec-theme @ git+https://github.com/phytec/sphinx-phytec-theme.git@v0.1.0"
+   pip install "sphinx-phytec-theme @ git+https://github.com/phytec/sphinx-phytec-theme.git@0.1.0"
 
 Enable it in ``conf.py``::
 
@@ -51,4 +51,4 @@ Development
    pip install -e .
    python -m build
 
-Releases are tagged ``vX.Y.Z``.
+Releases are tagged ``X.Y.Z`` (without a leading ``v``).
