@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sphinx-phytec-theme"
+version = "0.1.0"
+description = "PHYTEC Sphinx theme and extensions based on sphinx-rtd-theme"
+readme = "README.rst"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = [
+    "Sphinx>=8.2",
+    "sphinx-rtd-theme==3.0.2",
+]
+classifiers = [
+    "Framework :: Sphinx :: Theme",
+    "Framework :: Sphinx :: Extension",
+]
+
+[project.urls]
+Homepage = "https://github.com/phytec/sphinx-phytec-theme"
+
+[project.entry-points."sphinx.html_themes"]
+sphinx_phytec_theme = "sphinx_phytec_theme"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sphinx_phytec_theme"]
