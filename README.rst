@@ -1,11 +1,10 @@
 sphinx-phytec-theme
 ===================
 
-PHYTEC Sphinx theme (based on ``sphinx-rtd-theme``) and extensions, used by
-the PHYTEC documentation at https://github.com/phytec/doc-bsp-yocto.
+PHYTEC Sphinx theme (based on ``sphinx-rtd-theme``) and extensions, used by the
+PHYTEC documentation at https://github.com/phytec/doc-bsp-yocto.
 
-Installing ``sphinx-phytec-theme`` automatically installs
-``sphinx-rtd-theme``.
+Installing ``sphinx-phytec-theme`` automatically installs ``sphinx-rtd-theme``.
 
 Usage
 -----
@@ -23,11 +22,12 @@ Enable it in ``conf.py``::
 
 The extension:
 
-- registers the ``sphinx_phytec_theme`` HTML theme (inherits ``sphinx_rtd_theme``),
+- registers the ``sphinx_phytec_theme`` HTML theme (inherits
+  ``sphinx_rtd_theme``),
 - provides default logo, favicon, ``robots.txt`` and stylesheet,
 - provides the language selector template (``versions.html``),
-- enables the ``custom_sectnum`` extension (``sectnum`` directive that does
-  not number the uppermost section title).
+- enables the ``custom_sectnum`` extension (``sectnum`` directive that does not
+  number the uppermost section title).
 
 Any ``html_logo`` or ``html_favicon`` set in ``conf.py`` takes precedence.
 
