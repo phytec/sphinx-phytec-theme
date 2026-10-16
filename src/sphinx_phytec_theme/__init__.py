@@ -26,6 +26,7 @@ def _config_inited(app, config):
 def setup(app):
     app.setup_extension('sphinx_rtd_theme')
     app.setup_extension('sphinx_phytec_theme.custom_sectnum')
+    app.setup_extension('sphinx_phytec_theme.badges')
     app.add_html_theme('sphinx_phytec_theme', str(_THEME_DIR / 'phytec'))
     app.add_css_file('css/phytec-theme.css')
     app.connect('config-inited', _config_inited)
