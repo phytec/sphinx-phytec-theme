@@ -11,7 +11,7 @@ Usage
 
 Install a tagged release::
 
-   pip install "sphinx-phytec-theme @ git+https://github.com/phytec/sphinx-phytec-theme.git@0.2.0"
+   pip install "sphinx-phytec-theme @ git+https://github.com/phytec/sphinx-phytec-theme.git@0.3.0"
 
 Enable it in ``conf.py``::
 
