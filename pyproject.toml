@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sphinx-phytec-theme"
-version = "0.3.0"
+version = "0.4.0"
 description = "PHYTEC Sphinx theme and extensions based on sphinx-rtd-theme"
 readme = "README.rst"
 license = "MIT"
