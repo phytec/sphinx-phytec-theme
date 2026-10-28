@@ -194,6 +194,34 @@ legend {
     font-family: inherit;
 }
 
+.rst-footer-buttons .btn {
+    background-color: var(--gray1) !important;
+    color: var(--dark) !important;
+    border: 1px solid color-mix(in srgb, var(--gray2) 50%, var(--gray1));
+    border-radius: 1em;
+    box-shadow: none;
+    padding: 6px 16px;
+    transition: color 0.15s, box-shadow 0.15s, background-color 0.15s;
+}
+
+.rst-footer-buttons .btn:hover,
+.rst-footer-buttons .btn:focus {
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--teal2) 0%, var(--success) 400%);
+    border-color: var(--teal3);
+    color: var(--white) !important;
+}
+
+.rst-footer-buttons .btn:active {
+    box-shadow: none;
+    filter: brightness(0.92);
+}
+
+.rst-footer-buttons .btn .fa,
+.rst-footer-buttons .btn .icon {
+    color: inherit;
+}
+
 .rst-versions .rst-current-version {
     color: var(--teal2);
     background-color: color-mix(in srgb, var(--dark) 75%, var(--black));;
